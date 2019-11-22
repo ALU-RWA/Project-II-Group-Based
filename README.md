@@ -3,7 +3,7 @@ Project II Group Based Assignment
 Due: 28th Nov, 2019
 Instructions: Choose one question from the questions set.
 
-Write a program to simulate a simple Timer/StopWatch.
+       1. Write a program to simulate a simple Timer/StopWatch.
 Guidelines:
 It should display Hours, Minutes, Seconds
 The timer should be implemented using Processes, Signals, Threads and Synchronization.
@@ -17,9 +17,10 @@ Synchronization - To control the hours, Mins, Second count.
 Struct - time status i.e. hours, mins, secs.
 
 
-Write a program in C to simulate an elevator.
+        2. Write a program in C to simulate an elevator.
 Guidelines:
 The simulation is of people using the lift to arrive at their floor of a 8-story building. For the simulation we will expect people to start at floor 1 and exit at their destination. When all people have arrived at their floor, the simulation ends.
+
 Passenger: 
 1) 10 people will use the elevator (1 thread per person created at the start of simulation). 
 2) Each person begins at floor 1 waiting for an elevator. 
@@ -28,6 +29,7 @@ Passenger:
 5) A person will enter into the elevator only if there is room. 
 6) A person will only board the elevator going to their floor. 
 7) Once at the destination floor, the person exits the elevator. 
+
 Elevators: 
 1) There is only 1 elevator (1 thread for this elevator). 
 2) Elevator can only hold 10 people. 
@@ -36,7 +38,6 @@ Elevators:
 
 Other Guidelines: 
 1) Each activity of each thread should be printed to the screen. 
-
 
 
 This is a group assignment. All members of the group should have a part to play in the completion of the task. Submit your work on Github
